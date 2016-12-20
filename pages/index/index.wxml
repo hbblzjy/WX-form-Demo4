@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="viewName" style="margin-top: 60px;">
+  <navigator url="Component/FormM/FormM">
+    <text class="view-Name">Form表单展示</text>
+  </navigator>
+</view>
+<view style="margin-top: 60px;">form表单，将组件内输入的
+"switch","input","checkbox","slider","radio"
+,"picker"的值进行提交,数据的格式为：name:value，
+所以表单中控件都需要添加name属性，否则找不到对应控件的值。</view>
